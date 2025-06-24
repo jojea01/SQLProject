@@ -1,5 +1,8 @@
 WITH table1 as ( SELECT *
-FROM USHospitals.txt )
+FROM USHospitals.csv )
+
+WITH table2 as ( SELECT *
+FROM USHospitals)
 
 SELECT * 
 FROM table1
