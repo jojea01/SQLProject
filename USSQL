@@ -1,3 +1,6 @@
-SELECT *
-FROM USHospitals.txt
+WITH table1 as ( SELECT *
+FROM USHospitals.txt )
+
+SELECT * 
+FROM table1
 
